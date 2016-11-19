@@ -190,15 +190,35 @@ img.aside-ads__image {
 }
 
 
-/* --- !no good ページタイトル --- */
+/* --- ページタイトル --- */
 h2.main-header__title {
 	position: relative;
-	padding: 1em;
+	padding-left: 40px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   font-size: 1.5em;
   font-weight: bold;
   margin-bottom: 20px;
 	background-color: #f6f6f6;
 }
+
+h2.main-header__title::before {
+  content: "";
+  margin-top: 20px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  width: 10px;
+  height: 10px;
+  background-color: #999999;
+  box-shadow:
+    10px 0px #5d5d5d,
+    0px 10px #5d5d5d,
+    10px 10px #999999;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  }
+
 h2.main-header__title::after {
 	position: absolute;
 	top: 0;
