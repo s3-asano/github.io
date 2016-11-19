@@ -338,6 +338,10 @@ left:0;
 top:0;
 }
 
+p.article__blockquote-paragraph {
+  font-size: 90%
+}
+
 /* --- 記事画像 --- */
 img.article__image {
   margin-top: 20px;
